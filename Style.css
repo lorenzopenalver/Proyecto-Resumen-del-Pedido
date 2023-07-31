@@ -1,0 +1,123 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Red Hat Display';
+}
+
+body{
+    height: 100%;
+    width: 100%;
+background-image: url(./Imagenes/pattern-background-desktop.svg);
+background-position: initial;
+background-repeat: no-repeat;
+    
+    background-color: #f5f7ff;
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    max-width: 350px;
+    min-width: 280px;
+    height: 550px;
+}
+
+section .hero-container img{
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+}
+main section h2{
+    font-size: 2.4rem;
+    color: rgb(31 50 98);
+    text-align: center;
+    margin-top: 30px;
+ 
+    font-weight: 900;
+}
+main section .hero-txt{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+    width: 70%;
+    color: #7280a7;
+}
+section span img{
+ margin-left: 10px;
+}
+.plan-container{
+    background-color: #f5f7ff;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+    height: 80px;
+    
+}
+
+.plan-container h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 10px;
+    color:  rgb(31 50 98);
+}
+.plan-container p{
+    margin-left: 10px;
+    font-size: 1.4rem;
+    color:#7280a7 ;
+}
+.plan-container a{
+    
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #3829e0;
+}
+
+.boton{
+    margin-top: 30px;
+    background-color: #3829e0;
+    border-radius: 4px;
+    padding: 9px 23px 9px 23px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 85%;
+    height: 50px;
+    text-decoration: none;
+    
+}
+.BT{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.Cancel{
+    margin-top: 24px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #7280a7;
+    font-weight: 500;
+}
