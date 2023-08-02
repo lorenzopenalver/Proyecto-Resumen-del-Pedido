@@ -1,0 +1,9 @@
+@media(min-width: 500px){
+    body{
+        background-image: url(./Imagenes/pattern-background-mobile.svg);
+    background-position:top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    
+    }

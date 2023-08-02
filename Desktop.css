@@ -1,0 +1,9 @@
+@media(min-width: 800px){
+body{
+    background-image: url(./Imagenes/pattern-background-desktop.svg);
+background-position:top;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+}
